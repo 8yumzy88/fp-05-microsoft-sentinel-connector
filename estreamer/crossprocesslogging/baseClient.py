@@ -36,7 +36,7 @@ class BaseClient( object ):
 
             if isException:
                 message += '\n'
-                message += traceback.format_exc(data)
+                message += traceback.format_exc()
 
             return message
 
